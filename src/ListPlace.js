@@ -11,7 +11,7 @@ class ListPlace extends Component {
     return (
       <div id='listplace'>
           <input type='checkbox' id='listplace-chec'></input>
-          <label id='listplace-label' for='listplace-chec'><img id='listplace-img' src={icone}></img></label>
+          <label id='listplace-label' htmlFor='listplace-chec'><img id='listplace-img' src={icone}></img></label>
               <nav id='listplace-nav'>
               <input className='listplace-button' placeholder='Filter Location' value ={query} onChange={(e)=> { locationFilter(e.target.value)}}/>
               {
